@@ -1,0 +1,166 @@
+.main {
+    margin-top: 12%;
+    
+    
+}
+ 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 45% 45% );
+    // margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+.map img {
+    width: 90%;
+    height: 333px;
+    border-radius: 11px;
+    margin-top: 55px;
+}
+
+.google-map {
+    // width: 100%;
+    margin-right: 44px;
+    margin-left: 44px;
+    margin-top: 55px;  
+}
+
+iframe {
+    width: 90%;
+    height: 400px;
+    margin-bottom: 10%;
+    margin-right: 44px;
+    border-radius: 11px;
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.multi-button{
+height: 22px;
+width: 100px;
+border: 1px solid #000;
+}
+ .multi-button:active{
+     background-color: #aaa;
+ }
+
+
+// BOOKNOW FORM
+// table {
+//     max-width: 500px;
+// }
+.booknow-form {
+    // margin-left: 44px;
+}
+
+::placeholder, label, select{
+    font-size: 11px;
+}
+table tbody tr:nth-child(even) {
+    background-color: #fff;
+    border: none;
+}
+
+table thead, table tbody, table tfoot{
+    border: none;
+}
+table , td  {
+    border: none !important;
+}
+.a {
+    margin-left: 48px;
+    font-weight: 500;
+}
+.rght-aln{
+   justify-content: right;
+}
+
+input {
+    width: 222px;
+    height: 33px;
+    border-radius: 11px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+select {
+    width: 222px;
+    height: 33px;
+    border-radius: 11px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background: #fff;
+    color: #aaa;
+}
+label {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 12px;
+}
+ 
+ 
+
+  .button1:active{
+      background: #aaa;
+  }
+ 
+label .button{
+    width: 155px;
+    border: 1px solid #aaa;
+}
+// END FORM STYLE
+
+
+@media only screen and (max-width: 600px) {
+input , label, select {
+    width: 135px !important;
+
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+    .main{
+        // padding-right: 44px;
+    }
+    .a {
+        margin-left: 4px;
+    }
+
+    .main{
+        margin-top: 100px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, auto);
+        // margin-left: 55px;
+        // margin-right: 55px;
+
+    }
+
+    .map{
+        // display: flex;
+        
+        // margin-left: 44px;
+        // justify-content: left;
+    }
+    .map img {
+        width: 80%;
+        height: 263px;
+        border-radius: 11px;
+        margin-top: 55px;
+    }
+
+    .google-map {
+        width:80% !important;
+        margin-top: 33px;
+        margin-bottom: 22px;
+    }
+}
+ 
+ 

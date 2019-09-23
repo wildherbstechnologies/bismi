@@ -1,0 +1,28 @@
+
+  .footer {
+      height: 55px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+      background: #ffffff;
+
+  }
+  .footer-cont {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-top: 18px;
+   }
+   .footer-cont a{
+    margin-right: 7%;
+    margin-left: 7%;
+   }
+
+   @media screen and (max-width: 777px) { 
+
+     .footer {
+         display: none;
+     }
+
+   }

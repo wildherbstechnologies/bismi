@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: 'Rubik';
+}
+
+.des h1 {
+    font-size: 66px;
+    line-height: 88px;
+    color: #CE0505 ; 
+}
+
+.book-now {
+    width: 111px;
+    height: 33px;
+    border-radius: 33px;
+    border: 2px solid #CE0505;
+    background: #fff;
+    color: #CE0505 ; 
+}
+
+ a {text-decoration: none;}
+ .a {
+     color: #CE0505;
+ }
+
+ ::placeholder{
+     font-size: 11px;
+ }

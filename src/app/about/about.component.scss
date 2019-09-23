@@ -1,0 +1,285 @@
+ 
+.main {
+    margin-top: 11%;
+}
+
+/* ABOUT US PAGE */
+.contact-section {
+    margin-top: 33px;
+    display: grid;
+    grid-template-columns: repeat(2, 55% 40%);
+}
+
+input {
+    width: 222px;
+    height: 33px;
+    border-radius: 11px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+textarea {
+    height: 155px;
+    width: 77%;
+    border-radius: 11px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.form-field{
+    
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-bottom: 22%;
+}
+
+hr {
+    /* margin-top: 111px; */
+}
+
+.map img {
+    width: 100%;
+    height: 333px;
+}
+
+.map {
+    margin-right: 33px;
+     
+    /* margin-left: 44px; */
+}
+
+.con-hed {
+  font-size: 35px;
+  margin-top: -11px;
+}
+
+.google-map {
+    // width: 100%;
+    margin-right: 44px;
+    margin-left: 44px;
+    /* margin-top: 55px; */
+}
+
+iframe {
+    width: 90%;
+    height: 400px;
+    margin-bottom: 10%;
+    margin-right: 44px;
+    border-radius: 11px;
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.gif-map {
+    box-shadow: 0 1px 3px rgba(190, 190, 190, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 11px;
+}
+.hr {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+hr {
+    /* border: 1px solid #aaa !important; */
+    width: 90%;
+    
+}
+
+
+
+.des{
+
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+
+ @media only screen and (max-width: 777px) {
+     .main{
+         margin-top: 18%;
+     }
+
+    .links{ 
+        display: none !important;
+    }
+    .images{
+        display: none !important;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 95% 5%) !important;
+    
+    }
+    .contact-section {
+        display: grid;
+        grid-template-columns: repeat(1, auto) !important;
+    }
+    .map {
+        width: 80%;
+        margin-left: 44px;
+    }
+    .google-map {
+        width: 88%;
+        margin-top: 33px;
+        margin-bottom: 22px;
+    }
+    .footer {
+        display: none;
+    }
+    
+    .images {
+        display: none;
+    }
+     .input-space {
+         margin-top: 17px;
+     }
+     
+    
+     
+     .grt h1{
+         font-size: 44px !important;
+         line-height: 55px;
+     }
+     .st-ds span  {
+         font-size: 22px;
+         line-height: 25px;
+     }
+     /* footer {
+         display: none;
+     } */
+     .bismi-logo {
+         padding-left: 22px;
+         height: 44px;
+     }
+    
+    /* SLIDESHOW  */
+    
+     
+    /* END SLIDE SHOW */
+    
+    /* NAVBAR MOBILE */
+    
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(255, 255, 255);
+      /* background-color: rgba(0,0,0, 0.9); */
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 7%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .overlay-footer{
+        position: relative;
+      margin-top: 88% !important;
+      width: 100%;
+      text-align: center;
+      /* margin-top: 30px; */
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #000000;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 6px;
+      right: 22px;
+      font-size: 60px;
+    }
+    
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(3, 84% auto);
+    }
+    .mobile-nav{
+        margin-top: 40%;
+    }
+    
+    #myNav{
+        z-index: 99;
+    }
+    
+    /* END MOBILE NAVBAR */
+    
+    
+    
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 55% 45%);
+      
+ width: 100% !important;  
+        background: #fffefe;
+        /* position: fixed; */
+        margin: 0;
+       
+        
+    }
+    
+
+    .img-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 20% 80%);
+        grid-gap: 7px;
+        margin-bottom: 7px;
+        /* transform: scaleY(0);
+        transform-origin: top; */
+        // opacity: 0;
+    }
+    
+    .img-grid2 {
+        display: grid;
+        grid-template-columns: repeat(2, 70% 30%);
+        grid-gap: 10px;
+        margin-bottom: 7px;
+        /* transform: scaleX(0);
+        transform-origin: right; */
+        // opacity: 0;
+    }
+    
+    .img-grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 20% 80%);
+        grid-gap: 7px;
+        margin-bottom: 7px;
+        /* transform: scaleY(0);
+        transform-origin: bottom; */
+        // opacity: 0;
+    }
+
+    .images {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 7%;
+    }
+    
+    .img-sz {
+        width: 100% !important;
+        height: 155px !important;
+        object-fit: cover;
+    }
+
+    .book-now a{
+        color: #CE0505 ; 
+    }

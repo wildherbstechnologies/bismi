@@ -1,0 +1,214 @@
+.main {
+    margin-top: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 55% 45%);
+    height: 100% !important;
+    width: 100% !important;
+    background: #fffefe;
+    position: fixed;
+    margin: 0;
+}
+
+.book-now {
+    width: 111px;
+    height: 33px;
+    border-radius: 33px;
+    border: 2px solid #CE0505;
+    background: #fff;
+}
+
+.sht-des {
+    color: black;
+    font-size: 24px;
+    line-height: 7px;
+}
+
+.des h1 {
+    font-size: 66px;
+    line-height: 88px;
+    color: #CE0505;
+}
+
+.des {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 20% 80%);
+    grid-gap: 7px;
+    margin-bottom: 7px;
+    /* transform: scaleY(0);
+    transform-origin: top; */
+    // opacity: 0;
+}
+
+.img-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 70% 30%);
+    grid-gap: 10px;
+    margin-bottom: 7px;
+    /* transform: scaleX(0);
+    transform-origin: right; */
+    // opacity: 0;
+}
+
+.img-grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 20% 80%);
+    grid-gap: 7px;
+    margin-bottom: 7px;
+    /* transform: scaleY(0);
+    transform-origin: bottom; */
+    // opacity: 0;
+}
+
+
+.des {
+    // opacity: 0;
+}
+
+.brd {}
+
+.images {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 7%;
+}
+
+.img-sz {
+    width: 100% !important;
+    height: 155px !important;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 33px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* MOBILE SCREEN HOME PAGE */
+
+@media only screen and (max-width: 777px) {
+
+    .links{ 
+        display: none !important;
+    }
+    
+    .images {
+        display: none;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 95% 5%);
+        
+         background:linear-gradient(0deg,rgba(255, 255, 255, 0.671),rgba(252, 252, 252, 0.637)),url('/assets/bismi/2.png') no-repeat;
+        background-size: 777px 100%;  
+        
+     
+        
+    }
+    .grid .content {
+        margin-top: 25%;
+    }
+     
+    
+     
+     .grt h1{
+         font-size: 44px !important;
+         line-height: 55px;
+     }
+     .st-ds span  {
+         font-size: 22px;
+         line-height: 25px;
+     }
+     footer {
+         display: none;
+     }
+     .bismi-logo {
+         padding-left: 22px;
+         height: 44px;
+     }
+    
+    /* SLIDESHOW  */
+    
+     
+    /* END SLIDE SHOW */
+    
+    /* NAVBAR MOBILE */
+    
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(255, 255, 255);
+      /* background-color: rgba(0,0,0, 0.9); */
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 7%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .overlay-footer{
+        position: relative;
+      margin-top: 88% !important;
+      width: 100%;
+      text-align: center;
+      /* margin-top: 30px; */
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #000000;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 6px;
+      right: 22px;
+      font-size: 60px;
+    }
+    
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(3, 84% auto);
+    }
+    .mobile-nav{
+        margin-top: 40%;
+    }
+    
+    #myNav{
+        z-index: 99;
+    }
+    
+    /* END MOBILE NAVBAR */
+    
+    
+    
+    }
+    
+    /* END MOBILE HOME */
